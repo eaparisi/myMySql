@@ -17,6 +17,6 @@
 		eparisi/mysql_5_6_24
 
 	docker run --name YesWeAdTestMySQL -v /home/eric/YesWeAdDataDB:/var/lib/mysql -e MYSQL_DATABASE=yesweadDB -e MYSQL_ROOT_PASSWORD=rootdevpass -e MYSQL_USER=admin -e MYSQL_PASSWORD=devpass -p 3306:3306 -d eparisi/mysql_5_6_24
-
+	docker run --name YesWeAdTestMySQL -v /c/Users/Esteban/YesWeAdDataDB:/var/lib/mysql -e MYSQL_DATABASE=yesweadDB -e MYSQL_ROOT_PASSWORD=rootdevpass -e MYSQL_USER=admin -e MYSQL_PASSWORD=devpass -p 3306:3306 -d eparisi/mysql_5_6_24
 
 http://172.17.42.1  (desde otro container)
